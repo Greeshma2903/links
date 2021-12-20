@@ -1,17 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap");
+
 :root {
-  --background: #202020;
+  --background: #292727;
+  --primary-decor: #7a7a7a;
   --primary-text: white;
 }
 
 html {
   font-size: 62.5%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Poppins", "Montserrat", Geneva, Verdana, sans-serif;
 }
 
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 a {
@@ -59,23 +62,32 @@ body {
 
 .top .name {
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .top .heading {
   margin-bottom: 10px;
+  font-weight: 400;
+}
+
+hr {
+  width: 700px;
+  margin: 10px 0px;
+  border: none;
+  border-top: 1px solid var(--primary-decor);
 }
 
 .skills {
   width: 700px;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 10px;
   font-weight: 500 !important;
 }
 
 .skills-text {
   height: max-content;
-  align-self: flex-start;
   font-size: 16px;
   justify-content: center;
   margin: 5px 10px;
@@ -86,26 +98,27 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .skills li {
   margin: 3px;
-  padding: 5px;
-  font-size: 16px;
+  padding: 0.7rem 1rem;
+  font-size: 1.3rem;
   min-width: 50px;
   text-align: center;
-  border: 2px solid var(--primary-text);
+  border: 1px solid var(--primary-decor);
   border-radius: 4px;
-  background-color: var(--primary-text);
-  color: var(--background);
+  /* background-color: var(--primary-text); */
+  color: var(--primary-text);
   transition: all 0.25s ease-in-out;
 }
 
 .skills li:hover {
-  color: var(--primary-text);
+  /* color: var(--primary-text); */
   background-color: transparent;
-  cursor: alias;
+  cursor: text;
 }
 
 #sections {
@@ -136,14 +149,16 @@ body {
   width: 100%;
   text-align: center;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .linkCard {
   background-color: var(--primary-text);
   color: var(--background);
-  border: 2px solid var(--primary-text);
+  border: 1px solid transparent;
   height: 50px;
   width: 100%;
+  padding: 0px 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -157,14 +172,15 @@ body {
 }
 
 .linkCard:hover {
+  border: 1px solid var(--primary-text);
   color: var(--primary-text);
   background-color: transparent;
 }
 
 .linkCard i {
-  font-size: 30px;
+  font-size: 20px;
   margin: 5px;
-  width: 5%;
+  /* width: 5%; */
   text-align: center;
 }
 
@@ -182,6 +198,13 @@ footer p {
   text-align: center;
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+footer .footer_credit_name {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 600;
+  text-decoration-color: var(--primary-decor);
 }
 
 @media only screen and (max-width: 750px) {

@@ -1,50 +1,40 @@
 {
-    "name": "Nimish Jain",
-    "image": "./assets/nimish.jpeg",
-    "designation": "Student, Vellore Institute of Technology, Vellore",
-    "heading": "Full-stack Developer | Data Analytics Researcher",
+    "name": "Medam Greeshma",
+    "image": "./assets/greeshma.png",
+    "designation": "Student, Goa College of Engineering",
+    "heading": "Frontend Developer",
     "skills": [
         "HTML",
         "CSS",
         "JavaScript",
-        "ReactJs",
-        "NodeJs",
-        "ExpressJs",
-        "MongoDB",
-        "AngularJs",
         "JQuery",
-        "SASS",
-        "AJAX",
+        "Bootstrap",
         "C",
         "C++",
-        "Java",
-        "Python",
-        "Matlab",
-        "discord.py",
         "MS Word",
         "MS PowerPoint",
         "MS Excel",
         "VS Code",
         "Git",
         "GitHub",
-        "Research",
-        "Data Preprocessing"
+        "Figma",
+        "GCP"
     ],
     "sections": [
         {
-        "heading": false,
-        "links": [
-            {
-                "title": "Portfolio",
-                "icon": "<i class='fas fa-user'></i>",
-                "url": "https://www.nimish-jain.com"
-            },
-            {
-                "title": "Resume",
-                "icon": "<i class='fas fa-file-alt'></i>",
-                "url": "https://resume.nimish-jain.com"
-            }
-        ]
+            "heading": false,
+            "links": [
+                {
+                    "title": "Portfolio",
+                    "icon": "<i class='fas fa-user'></i>",
+                    "url": "https://greeshma-portfolio.netlify.app/"
+                },
+                {
+                    "title": "Resume",
+                    "icon": "<i class='fas fa-file-alt'></i>",
+                    "url": "https://docs.google.com/document/d/1rEThcj6hnPaQFr_4PIectWARRWd1ld15/edit?usp=sharing&ouid=115135829243562507351&rtpof=true&sd=true"
+                }
+            ]
         },
         {
             "heading": "DEV LINKS",
@@ -52,67 +42,22 @@
                 {
                     "title": "GitHub",
                     "icon": "<i class='fab fa-github'></i>",
-                    "url": "https://github.com/nimishjn"
+                    "url": "https://github.com/greeshma2903"
                 },
                 {
-                    "title": "HackerRank",
-                    "icon": "<i class='fab fa-hackerrank'></i>",
-                    "url": "https://www.hackerrank.com/nimishjain100701"
+                    "title": "Hashnode",
+                    "icon": "<i class='fas fa-user-edit'></i>",
+                    "url": "https://gree.hashnode.dev/"
                 },
                 {
-                    "title": "DevTo",
-                    "icon": "<i class='fab fa-dev'></i>",
-                    "url": "https://dev.to/nimishjn"
+                    "title": "Devpost",
+                    "icon": "<i class='fas fa-code'></i>",
+                    "url": "https://devpost.com/Greeshma2903"
                 },
                 {
-                    "title": "Medium",
-                    "icon": "<i class='fab fa-medium'></i>",
-                    "url": "https://nimishjn.medium.com"
-                },
-                {
-                    "title": "freeCodeCamp",
-                    "icon": "<i class='fab fa-free-code-camp'></i>",
-                    "url": "https://www.freecodecamp.org/nimishjn"
-                }
-            ]
-        },
-        {
-            "heading": "RESEARCH LINKS",
-            "links": [
-                {
-                    "title": "ORCID iD",
-                    "icon": "<i class='fab fa-orcid'></i>",
-                    "url": "https://orcid.org/0000-0001-9607-0764"
-                },
-                {
-                    "title": "Google Scholar",
-                    "icon": "<i class='fas fa-graduation-cap'></i>",
-                    "url": "https://scholar.google.com/citations?user=oKBKRQ0AAAAJ&hl=en"
-                },
-                {
-                    "title": "ResearchGate",
-                    "icon": "<i class='fab fa-researchgate'></i>",
-                    "url": "https://www.researchgate.net/profile/Nimish-Jain-4"
-                },
-                {
-                    "title": "Publons",
-                    "icon": "<i class='fas fa-file-powerpoint'></i>",
-                    "url": "https://publons.com/researcher/4167049/nimish-jain/"
-                },
-                {
-                    "title": "SciProfiles",
-                    "icon": "<i class='fas fa-graduation-cap'></i>",
-                    "url": "https://sciprofiles.com/profile/1689275"
-                },
-                {
-                    "title": "First research paper",
-                    "icon": "<i class='fas fa-file'></i>",
-                    "url": "https://ieeexplore.ieee.org/document/9404497"
-                },
-                {
-                    "title": "Second research paper",
-                    "icon": "<i class='fas fa-file'></i>",
-                    "url": "https://www.sciencedirect.com/science/article/pii/S2405896321014919"
+                    "title": "LeetCode",
+                    "icon": "<i class='fas fa-code'></i>",
+                    "url": "https://leetcode.com/Greeshma_Medam/"
                 }
             ]
         },
@@ -122,22 +67,17 @@
                 {
                     "title": "Email",
                     "icon": "<i class='fas fa-envelope'></i>",
-                    "url": "mailto:nimishjain100701@gmail.com"
+                    "url": "mailto:greeshmam@duck.com"
                 },
                 {
                     "title": "Twitter",
                     "icon": "<i class='fab fa-twitter'></i>",
-                    "url": "https://twitter.com/nimishjain_"
+                    "url": "https://twitter.com/greeshmamedam"
                 },
                 {
                     "title": "LinkedIn",
                     "icon": "<i class='fab fa-linkedin-in'></i>",
-                    "url": "https://www.linkedin.com/in/nimishjn/"
-                },
-                {
-                    "title": "Facebook",
-                    "icon": "<i class='fab fa-facebook-f'></i>",
-                    "url": "https://www.facebook.com/nimishjain100701"
+                    "url": "https://www.linkedin.com/in/m-greeshma/"
                 }
             ]
         }
