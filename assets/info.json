@@ -26,12 +26,12 @@
             "links": [
                 {
                     "title": "Portfolio",
-                    "icon": "<i class='fas fa-user'></i>",
+                    "icon": "<img src = './assets/icon-technologist.svg'>",
                     "url": "https://greeshma-portfolio.netlify.app/"
                 },
                 {
                     "title": "Resume",
-                    "icon": "<i class='fas fa-file-alt'></i>",
+                    "icon": "<img src='./assets/icon-resume.svg'>",
                     "url": "https://docs.google.com/document/d/1rEThcj6hnPaQFr_4PIectWARRWd1ld15/edit?usp=sharing&ouid=115135829243562507351&rtpof=true&sd=true"
                 }
             ]
@@ -41,22 +41,22 @@
             "links": [
                 {
                     "title": "GitHub",
-                    "icon": "<i class='fab fa-github'></i>",
+                    "icon": "<img src='./assets/icon-github.svg'>",
                     "url": "https://github.com/greeshma2903"
                 },
                 {
                     "title": "Hashnode",
-                    "icon": "<i class='fas fa-user-edit'></i>",
+                    "icon": "<img src = './assets/icon-write.svg'>",
                     "url": "https://gree.hashnode.dev/"
                 },
                 {
                     "title": "Devpost",
-                    "icon": "<i class='fas fa-code'></i>",
+                    "icon": "<img src = './assets/icon-tool.svg'>",
                     "url": "https://devpost.com/Greeshma2903"
                 },
                 {
                     "title": "LeetCode",
-                    "icon": "<i class='fas fa-code'></i>",
+                    "icon": "<img src = './assets/icon-tool.svg'>",
                     "url": "https://leetcode.com/Greeshma_Medam/"
                 }
             ]
@@ -66,17 +66,17 @@
             "links": [
                 {
                     "title": "Email",
-                    "icon": "<i class='fas fa-envelope'></i>",
+                    "icon": "<img src = './assets/icon-email.svg'>",
                     "url": "mailto:greeshmam@duck.com"
                 },
                 {
                     "title": "Twitter",
-                    "icon": "<i class='fab fa-twitter'></i>",
+                    "icon": "<img src = './assets/icon-twitter.svg'>",
                     "url": "https://twitter.com/greeshmamedam"
                 },
                 {
                     "title": "LinkedIn",
-                    "icon": "<i class='fab fa-linkedin-in'></i>",
+                    "icon": "<img src = './assets/icon-linkedin.svg'>",
                     "url": "https://www.linkedin.com/in/m-greeshma/"
                 }
             ]

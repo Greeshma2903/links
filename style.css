@@ -2,8 +2,8 @@
 
 :root {
   --background: #292727;
-  --primary-decor: #7a7a7a;
-  --primary-text: white;
+  --primary-decor: #a7a7a7;
+  --primary-text: #fff;
 }
 
 html {
@@ -36,9 +36,10 @@ a {
   background: rgb(99, 99, 99);
 }
 
-body {
-  background-color: var(--background);
-  color: var(--primary-text);
+ body {
+  background-color: #222;
+  background-image: linear-gradient(180deg, #646ac9 0%, #290041 100%);  
+   color: var(--primary-text);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,14 +110,12 @@ hr {
   min-width: 50px;
   text-align: center;
   border: 1px solid var(--primary-decor);
-  border-radius: 4px;
-  /* background-color: var(--primary-text); */
+  border-radius: 20px;
   color: var(--primary-text);
   transition: all 0.25s ease-in-out;
 }
 
 .skills li:hover {
-  /* color: var(--primary-text); */
   background-color: transparent;
   cursor: text;
 }
@@ -153,9 +152,7 @@ hr {
 }
 
 .linkCard {
-  background-color: var(--primary-text);
-  color: var(--background);
-  border: 1px solid transparent;
+  border: 1px solid var(--primary-text);
   height: 50px;
   width: 100%;
   padding: 0px 1.5rem;
@@ -172,15 +169,12 @@ hr {
 }
 
 .linkCard:hover {
-  border: 1px solid var(--primary-text);
-  color: var(--primary-text);
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.356);
 }
 
-.linkCard i {
-  font-size: 20px;
+.linkCard img {
+  width: 25px;
   margin: 5px;
-  /* width: 5%; */
   text-align: center;
 }
 
@@ -220,4 +214,10 @@ footer .footer_credit_name {
   .skills-text {
     align-self: center;
   }
+}
+
+/* icon colors */
+.fa-twitter
+{
+  color: #1DA1F2;
 }
